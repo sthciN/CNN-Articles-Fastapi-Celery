@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "youtube"
+version = "0.1.0"
+description = ""
+authors = ["atefeh <atefeh.barzideh@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+scikit-learn = "^1.5.1"
+celery = "^5.4.0"
+python-dotenv = "^1.0.1"
+uvicorn = "^0.30.5"
+fastapi = "^0.112.0"
+pandas = "^2.2.2"
+dill = "^0.3.8"
+nltk = "^3.8.1"
+redis = "^5.0.8"
+flower = "^2.0.1"
+psycopg2-binary = "^2.9.9"
+pytest = "^8.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -41,12 +41,19 @@ To run tests, use the following command:
 ### .env
 
 WORD_VECTOR_PATH=./app/static/super_wv.npz
+
 DATA_PATH=./archive/CNN_Articels_clean/CNN_Articels_clean.csv
+
 TFIDF_MODEL_PATH=./app/static/tfidf_model.pkl
+
 DB_HOST=
+
 DB_NAME=
+
 DB_USER=
+
 DB_PASSWORD=
+
 DB_PORT=
 
 ## Contributing

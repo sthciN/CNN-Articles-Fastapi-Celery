@@ -14,17 +14,6 @@ def read_root():
     return {"Hello": "World"}
 
 
-# @app.get("/fit")
-# def fit_vectorizer():
-#     try:
-#         extract_keywords()
-    
-#     except Exception as e:
-#         return {"message": str(e)}
-
-#     return {"details": "The vectorizer has been fitted."}
-
-
 @app.post("/similar-articles")
 def find_similar_articles(article: Article):
     # Get text from the request body json
